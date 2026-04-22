@@ -17,6 +17,7 @@
         <span class="navbar-text me-3 text-white">
             <i class="bi bi-person-badge-fill text-warning"></i> Welcome, <?= htmlspecialchars($_SESSION['name'] ?? 'Admin') ?>
         </span>
+        <a href="admin_settings.php" class="btn btn-outline-light btn-sm fw-bold me-2"><i class="bi bi-gear-fill"></i> Settings</a>
         <a href="logout.php" class="btn btn-outline-danger btn-sm fw-bold">Logout</a>
     </div>
   </div>
